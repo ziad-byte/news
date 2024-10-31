@@ -129,4 +129,6 @@ if __name__ == "__main__":
 
     # Fetch articles from the saved URLs using the saved tags
     if urls:
-        fetch
+        fetch_articles()
+    else:
+        print("No URLs to fetch articles from.")
